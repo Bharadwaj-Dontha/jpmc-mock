@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:iforeye/screens/registration_screen.dart';
-import 'package:iforeye/screens/user_screen.dart';
-import 'package:iforeye/screens/volunteer_screen.dart';
-import 'package:iforeye/screens/welcome_screen.dart';
+import 'package:jpmc_app/screens/registration_screen.dart';
+import 'package:jpmc_app/screens/user_screen.dart';
+import 'package:jpmc_app/screens/volunteer_screen.dart';
+import 'package:jpmc_app/screens/welcome_screen.dart';
 
 import 'screens/login_screen.dart';
 
