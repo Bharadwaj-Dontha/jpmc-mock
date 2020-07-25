@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:iforeye/screens/login_screen.dart';
-import 'package:iforeye/screens/registration_screen.dart';
+import 'package:jpmc_app/screens/login_screen.dart';
+import 'package:jpmc_app/screens/registration_screen.dart';
 
 class WelcomeScreen extends StatefulWidget {
   static const String id = 'welcome_screen';
