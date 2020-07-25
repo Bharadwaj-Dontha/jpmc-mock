@@ -36,6 +36,14 @@ class _VolunteerScreenState extends State<VolunteerScreen> {
             ),
             Expanded(
               child: FlatButton(
+                onPressed: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) {
+                      return RecordingScreen();
+                    }),
+                  );
+                },
                 child: Image(
                   image: AssetImage("images/book2.jpeg"),
                   height: 150.0,
@@ -45,6 +53,14 @@ class _VolunteerScreenState extends State<VolunteerScreen> {
             ),
             Expanded(
               child: FlatButton(
+                onPressed: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) {
+                      return RecordingScreen();
+                    }),
+                  );
+                },
                 child: Image(
                   image: AssetImage("images/book3.jpeg"),
                   height: 150.0,
